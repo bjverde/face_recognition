@@ -4,10 +4,24 @@ This project provides a docker image which offers a web service to recognize kno
 
 <a href="https://www.buymeacoffee.com/JanLoebel" rel="Buy me a coffee!">![Foo](https://cdn.buymeacoffee.com/buttons/default-orange.png)</a>
 
-## Get started
+# Get started
 
+## Build with  Docker Compose 
+* For Build only 
+```bash
+docker-compose build
+```
+* For starting the server, after build
+```bash
+docker-compose up
+```
+* For build and starting the server with  background
+```bash
+docker-compose up --build
+```
+
+## Build only Docker 
 ### Build the Docker image
-
 Start by building the docker image with a defined name. This can take a while.
 
 ```bash
