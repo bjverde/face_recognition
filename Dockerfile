@@ -11,6 +11,8 @@ RUN apt-get install -y --fix-missing \
     wget \
     curl \
     graphicsmagick
+RUN apt-get update && \
+apt-get upgrade -y    
 RUN apt-get install -y --fix-missing \    
     libgraphicsmagick1-dev \
     libatlas-base-dev \

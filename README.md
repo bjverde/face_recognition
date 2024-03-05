@@ -20,6 +20,8 @@ docker-compose up
 docker-compose up --build
 ```
 
+Total time to build and start the server 520 seconds or 8,6 minutes. Using windows 11, i5 and 16 GB ram
+
 ## Build only Docker 
 ### Build the Docker image
 Start by building the docker image with a defined name. This can take a while.
