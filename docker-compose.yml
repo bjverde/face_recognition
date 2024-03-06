@@ -15,7 +15,7 @@
 version: '3.8'
 services:
 
-  face_recog_python3.8:
+  face_recog_python3.10:
     build:
       dockerfile: Dockerfile
       context: .
